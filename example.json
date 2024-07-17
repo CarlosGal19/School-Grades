@@ -1,0 +1,11 @@
+{
+	"name": "Carlos",
+	"id": "utm22038328292",
+	"grade": 9,
+	"major": "TIDSM",
+	"grades": {
+		"math": 9,
+		"languaje": 8.5,
+		"chemistry": 9.7
+	}
+}
