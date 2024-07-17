@@ -23,7 +23,7 @@ const addStudent = async (req, res) => {
     const newStudent = new Student(student);
     try {
         await newStudent.save();
-        res.status(201).json(newStudent);
+        res.status(200).json(newStudent);
     } catch (error) {
         res.status(409).json({ message: error.message });
     }
